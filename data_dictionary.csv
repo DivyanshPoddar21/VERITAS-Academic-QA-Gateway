@@ -1,0 +1,8 @@
+﻿column_name,data_type,sample_value_1,sample_value_2,sample_value_3,nullable,description_fill_in
+doc_id,string,DOC002,DOC034,DOC013,No,"Unique document identifier across the 50 source files in the dataset (DOC001 to DOC050)."
+doc_type,string,TXT,HTML,Markdown,No,"Format of the source document: Markdown, TXT, PDF, Word, or HTML."
+chunk_id,string,CHK00001,CHK00002,CHK00003,No,"Unique chunk identifier assigned to each segmented record (CHK00001 to CHK00500)."
+word_count,integer,457,302,52,No,"Total word count of the individual text chunk (verified range: 50 to 499 words)."
+retrieval_score,float,0.5962,0.7397,0.7735,No,"Similarity score between query and document representations (verified range: 0.5008 to 0.9989)."
+query_type,string,analytical,factual,comparative,No,"Category of the question: summarization, procedural, factual, comparative, or analytical."
+answer_quality_score,float,0.942,0.976,0.66,No,"Evaluation score assessing context relevance and answer quality (verified range: 0.600 to 1.000)."
